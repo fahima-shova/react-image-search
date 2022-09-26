@@ -38,7 +38,7 @@ class ImageCard extends React.Component{
 
             <div style={{ gridRowEnd: `span ${this.state.spans}` }}>
 
-                 <img ref = {this.imageRef} alt={this.props.description} src={this.props.urls.small}/>
+                 <img style={{borderRadius: '2%'}} ref = {this.imageRef} alt={this.props.description} src={this.props.urls.small}/>
             </div>
         )
     }
